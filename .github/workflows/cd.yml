@@ -15,6 +15,6 @@ jobs:
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v2
         with:
-          app-name: kamspringweb      # Replace with your real app name
+          app-name: kamspring      # Replace with your real app name
           publish-profile: ${{ secrets.AZURE_PUBLISH_PROFILE }}
           package: spring-app/SpringGitHub-0.0.1-SNAPSHOT.jar  # Adjusted path
